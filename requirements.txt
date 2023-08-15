@@ -1,0 +1,29 @@
+# Windows Runtime
+PyQt5
+pywin32
+windows_filedialogs
+
+# YOLOv8
+onnx
+thop
+torch > 1.12
+numpy > 1.20.3
+scipy
+pandas
+Pillow
+psutil
+seaborn
+protobuf
+matplotlib
+setuptools
+torchvision
+coremltools
+onnxruntime
+opencv_python
+
+# Others
+lxml
+tqdm
+PyYAML
+ipython
+pycocotools_windows
