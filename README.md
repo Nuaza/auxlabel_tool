@@ -21,7 +21,20 @@ This repository provides a python project which can provides an executable tool 
 
 
 
+# 😮What does it provide?
 
+A convenient way to create your YOLO datasets, to label your images, to train your weights, to predict images by the weights and to re-label your images, to re-train your weights...
+
+For example, you have a dataset with 11451 images without annotations. You may just label 50 or 100 of them by your hand, and then use them to train your weight file with 300 epochs. Then you get 11451 images with annotations (well, most of them must be inaccurate). So we back to the labeling step, you can re-label some of them to ensure the accuracy of your final weight file, and then re-train, re-predict ...
+
+Well if you doesn't like this procedure, you can also just regard it as an auxiliary tool which can help you to process your deep learning project.
+
+# 😉TODO
+
+| Status | Things                                 |
+| ------ | -------------------------------------- |
+| ❌      | Translate the whole project to English |
+| ❌      | Adapt to other YOLO versions           |
 
 # 📑Reference
 
