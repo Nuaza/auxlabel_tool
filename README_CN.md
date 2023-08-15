@@ -4,7 +4,7 @@
 
 这个项目基于YOLOv8，用于一键式处理数据集&进行训练任务&进行检测任务
 
-![image1](.\resources\1.png)
+![image1](./resources/1.png)
 
 
 
