@@ -9,6 +9,7 @@ This repository provides a python project which can provides an executable tool 
 
 + Microsoft Windows 7 / 8 / 8.1 / 10 / 11
 + An NVIDIA GPU which can support your deep learning tasks (If you don't mind running it on CPU, then it's optional)
++ Python 3.8 or higher, and many [python packages](./requirements.txt)
 
 # 😫How to deploy it?
 
