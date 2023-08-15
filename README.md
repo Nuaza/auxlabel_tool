@@ -5,9 +5,25 @@ This repository provides a python project which can provides an executable tool 
 
 ![image2](./resources/2.png)
 
+# 💻Requirements
+
++ Microsoft Windows 7 / 8 / 8.1 / 10 / 11
++ An NVIDIA GPU which can support your deep learning tasks (If you don't mind running it on CPU, then it's optional)
+
+# 😫How to deploy it?
+
+1. Use `git clone https://github.com/Nuaza/auxlabel_tool.git` to clone this repository to your device. (If you get an error in this step, please check your Internet)
+2. Use `cd auxlabel_tool` to step into the directory
+3. Use `pip install -r requirements.txt` to install every packages you may needs. (If you get an error in this step, please check your python installation)
+4. Use `python auxLabel_GUI.py` to run it.
+
+# 🤨How to run it?
 
 
-# Reference
+
+
+
+# 📑Reference
 
 [ultralytics/YOLOv8](https://github.com/ultralytics/ultralytics)
 
