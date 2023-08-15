@@ -8,3 +8,8 @@
 
 
 
+# 参考
+
+[ultralytics/YOLOv8](https://github.com/ultralytics/ultralytics)
+
+[HumanSignal/labelImg](https://github.com/HumanSignal/labelImg)

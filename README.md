@@ -7,3 +7,9 @@ This repository provides a python project which can provides an executable tool 
 
 
 
+# Reference
+
+[ultralytics/YOLOv8](https://github.com/ultralytics/ultralytics)
+
+[HumanSignal/labelImg](https://github.com/HumanSignal/labelImg)
+

@@ -711,8 +711,8 @@ class ControlBoard(UI_MainWindow):
         QMessageBox.about(self, "关于", "Auxiliary Tool for Labeling & Training & Predicting v0.31\n\n"
                                         "Training & Predicting based on ultralytics/YOLOv8\n"
                                         "repository site: https://github.com/ultralytics/ultralytics\n\n"
-                                        "Labeling based on heartexlabs/labelImg\n"
-                                        "repository site: https://github.com/heartexlabs/labelImg\n\n")
+                                        "Labeling based on HumanSignal/labelImg\n"
+                                        "repository site: https://github.com/HumanSignal/labelImg\n\n")
 
 
 class TrainThread(QThread):
