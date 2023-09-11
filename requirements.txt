@@ -1,7 +1,7 @@
 # Windows Runtime
 PyQt5
 pywin32
-windows_filedialogs
+windows_filedialogs==0.0.5
 
 # YOLOv8
 onnx
@@ -26,4 +26,3 @@ lxml
 tqdm
 PyYAML
 ipython
-pycocotools_windows

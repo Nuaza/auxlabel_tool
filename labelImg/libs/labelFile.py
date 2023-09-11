@@ -9,10 +9,10 @@ except ImportError:
 import os.path
 from enum import Enum
 
-from libs.create_ml_io import CreateMLWriter
-from libs.pascal_voc_io import PascalVocWriter
-from libs.pascal_voc_io import XML_EXT
-from libs.yolo_io import YOLOWriter
+from labelImg.libs.create_ml_io import CreateMLWriter
+from labelImg.libs.pascal_voc_io import PascalVocWriter
+from labelImg.libs.pascal_voc_io import XML_EXT
+from labelImg.libs.yolo_io import YOLOWriter
 
 
 class LabelFileFormat(Enum):

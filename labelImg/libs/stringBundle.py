@@ -9,7 +9,7 @@ import re
 import os
 import sys
 import locale
-from libs.ustr import ustr
+from labelImg.libs.ustr import ustr
 
 try:
     from PyQt5.QtCore import *

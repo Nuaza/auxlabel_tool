@@ -13,6 +13,8 @@ from PyQt5.QtGui import *
 from PyQt5.QtCore import *
 from PyQt5.QtWidgets import *
 
+sys.path.append("..")
+
 try:
     from labelImg.libs.combobox import ComboBox
     from labelImg.libs.default_label_combobox import DefaultLabelComboBox

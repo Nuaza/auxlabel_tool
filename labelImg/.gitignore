@@ -1,5 +1,5 @@
 resources/icons/.DS_Store
-resources.py
+libs/resources.py
 labelImg.egg-info*
 
 *.pyc
