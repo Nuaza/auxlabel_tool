@@ -105,7 +105,10 @@ def generate_yaml(label_path, dataset_path, yaml_name='dataset.yaml'):
     :param dataset_path: 数据集的根路径
     :param yaml_name: 数据集配置文件的名称，默认dataset.yaml
     """
-    classes = get_classes(label_path + '/classes.txt')
+    try:
+        classes = get_classes(label_path + '/classes.txt')
+    except:
+        print('生成失败!未能在标签文件夹下找到有效的classes.txt文件!')
     yaml_file = open(dataset_path + '/' + yaml_name, 'w')
     yaml_data = {'path': os.path.abspath(dataset_path).replace('\\', '/'),
                  'train': os.path.abspath(dataset_path + '/train.txt').replace('\\', '/'),
