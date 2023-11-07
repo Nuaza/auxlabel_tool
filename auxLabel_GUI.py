@@ -561,7 +561,7 @@ class UI_MainWindow(QMainWindow):
         # setup MainWindow
         if not MainWindow.objectName():
             MainWindow.setObjectName("MainWindow")
-        MainWindow.setWindowTitle("Auxiliary Tool for Labeling & Training & Predicting")
+        MainWindow.setWindowTitle("Nuaza's Auxlabel Tool version 0.56")
         MainWindow.resize(self.WINDOW_WIDTH, self.WINDOW_HEIGHT)
         MainWindow.setMinimumSize(QSize(1024, 768))
         MainWindow.statusBar().showMessage("准备就绪")
@@ -708,7 +708,7 @@ class ControlBoard(UI_MainWindow):
         return
 
     def aboutWindow(self):
-        QMessageBox.about(self, "关于", "Auxiliary Tool for Labeling & Training & Predicting v0.55\n\n"
+        QMessageBox.about(self, "关于", "Nuaza's Auxlabel Tool\n\n"
                                         "Training & Predicting based on ultralytics/YOLOv8\n"
                                         "repository site: https://github.com/ultralytics/ultralytics\n\n"
                                         "Labeling based on HumanSignal/labelImg\n"
