@@ -2,4 +2,4 @@
 __pycache__
 dataset
 runs
-ultralytics/weights
+weights

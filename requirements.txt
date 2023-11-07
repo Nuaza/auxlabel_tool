@@ -4,22 +4,7 @@ pywin32
 windows_filedialogs==0.0.5
 
 # YOLOv8
-onnx
-thop
-torch > 1.12
-numpy > 1.20.3
-scipy
-pandas
-Pillow
-psutil
-seaborn
-protobuf
-matplotlib
-setuptools
-torchvision
-coremltools
-onnxruntime
-opencv_python
+ultralytics
 
 # Others
 lxml

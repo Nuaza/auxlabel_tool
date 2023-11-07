@@ -144,12 +144,14 @@ def copy_labels(source_labels, target_labels):
 
 
 def launch_train(train_weight, dataset_cfg, train_epochs, train_batch, train_device):
-    from ultralytics.yolo.v8.detect.train import train
-    train(train_weight, dataset_cfg, train_epochs, train_batch, train_device)
+    from ultralytics import YOLO
+    model = YOLO(train_weight)
+    model.train(data=dataset_cfg, epochs=train_epochs, batch=train_batch, device=train_device)
     return
 
 
 def launch_predict(predict_weight, image_source):
-    from ultralytics.yolo.v8.detect.predict import predict
-    predict(predict_weight, image_source)
+    from ultralytics import YOLO
+    model = YOLO(predict_weight)
+    model(image_source, save=True)
     return

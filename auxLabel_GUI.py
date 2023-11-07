@@ -708,7 +708,7 @@ class ControlBoard(UI_MainWindow):
         return
 
     def aboutWindow(self):
-        QMessageBox.about(self, "关于", "Auxiliary Tool for Labeling & Training & Predicting v0.31\n\n"
+        QMessageBox.about(self, "关于", "Auxiliary Tool for Labeling & Training & Predicting v0.55\n\n"
                                         "Training & Predicting based on ultralytics/YOLOv8\n"
                                         "repository site: https://github.com/ultralytics/ultralytics\n\n"
                                         "Labeling based on HumanSignal/labelImg\n"
