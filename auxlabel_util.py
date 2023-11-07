@@ -153,5 +153,5 @@ def launch_train(train_weight, dataset_cfg, train_epochs, train_batch, train_dev
 def launch_predict(predict_weight, image_source):
     from ultralytics import YOLO
     model = YOLO(predict_weight)
-    model(image_source, save=True)
+    model(image_source, save=True, save_txt=True)
     return
